@@ -45,7 +45,7 @@ public class FatorialTest {
     public void fatorialDeNumeroNegativoDeveJogarExceção() throws Exception {
         fatorial = new Fatorial();
         fatorial.fatorial(-1);
-//        assertThrows(Exception.class, () -> fatorial.fatorial(-1));
+//        assertThrows(Exception.class, () -> fatorial.fatorial(-1));//
 
     }
 }
